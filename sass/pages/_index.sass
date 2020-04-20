@@ -1,0 +1,141 @@
+*
+    box-sizing: border-box
+
+.mb-1
+    margin-bottom: 8px
+.mb-2
+    margin-bottom: 16px
+.mb-3
+    margin-bottom: 24px
+.mb-4
+    margin-bottom: 32px
+.mb-9
+    margin-bottom: 72px
+
+.pr-2
+    padding-right: 16px
+.pl-6
+    padding-left: 48px
+
+$color-primary: #415165
+$color-secondary: #96A9C4
+$color-point: #A00404
+$color-light: #FFFFFF
+
+.bgcolor-dark
+    background-color: $color-primary
+.bgcolor-light
+    background-color: $color-secondary
+.tcolor-light
+    color: $color-light
+.tolor-point
+    color: $color-point
+.content-center
+    justify-content: center
+.fw-bolder
+    font-weight: bolder
+
+
+
+
+.container-center
+    width: 1200px
+    margin: 0 auto
+.header
+    font-size: 80px
+    line-height: 90px
+.person-name
+    border-bottom: 1px solid #000
+    padding-bottom: 24px
+.person-img
+    margin: 48px 0
+img
+    display: block
+.title
+    display: flex
+    align-items: center
+    font-size: 32px
+    line-height: 45px
+    border-bottom: 1px solid #000
+    padding-bottom: 8px
+.title-style
+    margin-left: 16px
+    font-size: 24px
+    line-height: 32px
+
+ul
+    margin: 0
+    padding: 0
+li
+    list-style: none
+    font-size: 24px
+    line-height: 35px
+
+.wrap
+    position: relative
+.circle
+    position: absolute
+    left: 16px
+    top: 8px
+    width: 16px
+    height: 16px
+    border-radius: 999rem
+    background-color: $color-secondary
+.line:after
+    position: absolute
+    content: ''
+    border-left: 1px solid $color-secondary
+    height: 66px
+    bottom: 20px
+    left: 24px
+.skill-bar
+    position: relative
+    &:after
+        content: ''
+        width: 100%
+        background-color: $color-secondary
+        height: 360px
+        display: block
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        z-index: -1
+.skill
+    padding: 24px 102px 56px 102px
+.skill,.footer
+    .title
+        border-bottom: 1px solid $color-light
+        margin-bottom: 40px
+.list
+    display: flex
+    ul
+        border-left: 1px solid $color-light
+        padding-left: 24px
+    li
+        line-height: 32px
+        font-weight: lighter
+.exp
+    img
+        margin: 8px 0
+    p
+        margin: 0
+        font-size: 20px
+        font-weight: normal
+        width: 642px
+    .wrap
+        margin-left: 24px
+        padding-left: 24px
+        border-left: 1px solid $color-secondary
+.footer
+    padding: 24px 360px 48px 360px
+    .title
+        margin-bottom: 32px
+    ul
+        border: none
+        width: 100%
+        padding-left: 0
+    li
+        text-align: center
+.icons
+    display: flex
+    
